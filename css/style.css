@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@keyframes MiAnimacion {
+            0% {margin-top: 150%}
+            60% {margin-top: -5%}
+            100%{margin-top: 0%}
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+
+
+          }
+body{
+font-family:'Poppins',Verdana, Sans-serif;
+animation: MiAnimacion;
+
+animation-duration: 1s;
+animation-fill-mode:forwards;
+}
