@@ -16,9 +16,19 @@
 
           }
 body{
-font-family:'Poppins',Verdana, Sans-serif;
-animation: MiAnimacion;
-
-animation-duration: 1s;
-
+      font-family:'Poppins',Verdana, Sans-serif;
+      animation: fadeIn;
+      background-color:black;
+      animation-duration: 5s;
+      background: url(../img/guitarra.jpeg);
+      background-size:cover;
+      background-attachment: fixed;
 }
+
+.cabecera{
+          background:url(../img/textura.jpg);
+          border-radius:10px 10px 0px 0px;
+          background-size: cover;
+}
+
+.articulo {color: white;font-family: 'Roboto';}important!
